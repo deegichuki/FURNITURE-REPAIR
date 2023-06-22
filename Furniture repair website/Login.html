@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>website layout with image gallery</title>
+		<link rel="stylesheet" href="dee.css">
+		
+        </head>
+     <body>
+<nav>
+    <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="Gallery.html">Gallery</a></li>
+        <li><a href="Contact us.html">Contact us</a></li>
+        <li><a href="Login.html">Login</a></li>
+
+    </ul>
+</nav> 
+<div class="header ">
+	<h1>WORLD CLASS FURNITURE</h1>
+	<p> Your Comfort is Our priority!!</p>
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card">
+                <div class="card-header">Login to Furniture_Repair.com</div>
+
+                <div class="card-body">
+                    <form method="POST" action="login.php">
+                        
+
+                        <div class="row mb-3">
+                            <label for="email" class="col-md-4 col-form-label text-md-end">Email Address</label>
+
+                            <div class="col-md-6">
+                                <input id="email" type="email" class="form-control" name="Email"  required autocomplete="email" autofocus>
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                            <label for="password" class=" col-md-4 col-form-label text-md-end">Password</label>
+
+                            <div class="col-md-6">
+                                <input id="password" type="password" class="form-control" name="Password" required autocomplete="current-password">
+
+                                
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                          <label for="userType" class=" col-md-4 col-form-label text-md-end">Select User Type</label>
+                          <div class="col-md-6">
+                            <select class="form-select" name="UserType"  required>
+                              <option value="customer">Customer</option>
+                              <option value="carpenter">carpenter</option>
+                              <option value="admin">Admin</option>
+                            </select>
+                          </div>
+                          
+                        </div>
+                      
+                        
+
+                        <div class="row mb-4">
+                            <div class="col-md-8 offset-md-4">
+                                <button type="submit" class="btn btn-primary">
+                                    Login
+                                </button>
+
+                            </div>
+                        </div>
+
+                        <div class="row mb-3">
+                          <p class="col-md-6">Don't have an account? <a href="register.html" class="text-black-50 fw-bold">Sign Up</a></p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
+        </body>
+</html>
